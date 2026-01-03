@@ -1,0 +1,44 @@
+[project]
+name = "python-template"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+requires-python = ">=3.11"
+dependencies = [
+    "aiofiles==23.2.1",
+    "aiohttp>=3.13.2",
+    "akinator-py>=0.2.5",
+    "arabic-reshaper>=3.0.0",
+    "beautifulsoup4>=4.14.3",
+    "flask>=3.1.2",
+    "google-api-python-client>=2.187.0",
+    "gtts>=2.5.4",
+    "h2>=4.3.0",
+    "hijri-converter>=2.3.2.post1",
+    "httpx[http2]>=0.28.1",
+    "humanize>=4.15.0",
+    "kvsqlite>=0.2.1",
+    "meval>=2.5",
+    "mutagen>=1.47.0",
+    "pafy>=0.5.5",
+    "pillow>=12.0.0",
+    "psutil>=7.2.0",
+    "py-cpuinfo>=9.0.0",
+    "pydub==0.25.1",
+    "pyrogram>=2.0.106",
+    "python-arq>=6.0.7",
+    "python-bidi>=0.6.7",
+    "python-dotenv>=1.2.1",
+    "pytio>=0.3.1",
+    "pytube>=15.0.0",
+    "pytz>=2025.2",
+    "redis>=7.1.0",
+    "requests>=2.32.5",
+    "shazamio==0.8.1",
+    "speechrecognition>=3.14.4",
+    "tgcrypto>=1.2.5",
+    "wget>=3.2",
+    "youtube-search>=2.2.0",
+    "youtube-search-python>=1.6.6",
+    "yt-dlp>=2025.12.8",
+]

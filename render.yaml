@@ -1,0 +1,22 @@
+services:
+  - type: web
+    name: r3d-bot
+    runtime: python311
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: python web.py
+    envVars:
+      - key: PYTHONUNBUFFERED
+        value: true
+      - key: PORT
+        value: 5000
+
+  - type: background
+    name: telegram-bot
+    runtime: python311
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: python main.py
+    envVars:
+      - key: PYTHONUNBUFFERED
+        value: true
