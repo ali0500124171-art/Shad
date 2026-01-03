@@ -1,2 +1,2 @@
-token = ""
-owner_id = 
+token = "8337769627:AAFSVHisGOiX5XSTFg8jOXyXJK8ZtST2gQE"
+owner_id = 8220946459
